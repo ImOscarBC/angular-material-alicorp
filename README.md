@@ -2,6 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
+## Resume
+
+Este proyecto ha sido desarrollado en base a una estructura modular, lo cual permite la escalabilidad de una forma mas eficiente y ordenada.
+
+Los estilos nativos se escribieron en SCSS, utilizando el modelo de diseño FlexBox y sus propiedades.
+
+Se utilizó la API de productos de `https://fakestoreapi.com/`. (Cabe recalcar que por motivos de prueba el método delete no borra filas de la base de datos, pero si realiza el proceso de éxito al utilizar correctamente el endpoint).
+
+Se utilizó la librería Angular Material.
+
+Se construyó un archivo DockerFile básico para despliegue.
+
+Se realizaron pruebas unitarias.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
