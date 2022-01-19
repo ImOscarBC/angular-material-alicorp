@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Eliminar Producto</h2>
+
+<mat-dialog-content class="mat-typography">
+  <div class="content">
+    <span>¿Está seguro que desea eliminar el producto <b>{{data.title}}</b> ?</span>
+  </div>
+  <div class="options">
+    <button mat-raised-button color="warn" [mat-dialog-close]="data">Sí, eliminar</button>
+    <button mat-raised-button color="gray" [mat-dialog-close]="false">Cancelar</button>
+  </div>
+</mat-dialog-content>
