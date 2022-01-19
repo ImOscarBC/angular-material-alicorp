@@ -1,0 +1,23 @@
+.container-products{
+  padding: 50px 50px;
+  .content{
+    .mat-elevation-z8{
+      table{
+        width: 100%;
+        .mat-header-cell{
+          font-weight: 500;
+          color: black;
+        }
+        td , th{
+          padding: 0px 24px;
+        }
+      }
+      .container-loader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+      }
+    }
+  }
+}
