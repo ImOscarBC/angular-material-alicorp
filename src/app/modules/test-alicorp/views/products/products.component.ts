@@ -38,7 +38,7 @@ export class ProductsComponent implements OnInit {
       this.paginator.pageIndex = 0
       this.dataSource.paginator = this.paginator;
     }, error => {
-      console.log("error", error)
+      console.log("error",error)
     }).add(()=>{
       this.loading = false
     })
@@ -49,7 +49,7 @@ export class ProductsComponent implements OnInit {
     this.productService.deleteProduct(product).subscribe((res) => {
       this.showConfirmProductDeleted(product)
     }, error => {
-      console.log("error", error)
+      console.log("error",error)
     }).add(()=>{
       this.getProducts()
     })
